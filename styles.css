@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  background-color: #fdf9f0;
+}
+
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.margen {
+  padding: 15px;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.borde {
+    border: 1px #492b27 solid;
+}
+
+.negritas {
+  font-weight: bold;
+}
+
+.linea_rosa {
+  width: 100%;
+  height: 20px;
+  background-color: #e5357e;
+  border: none;
+}
+.contenedor_redes {
+  margin-top: 30px;
+}
+.logo {
+  display: inline-block;
+  width: 38%;
+  text-align: left;
+  vertical-align: middle;
+}
+.redes_sociales {
+  display: inline-block;
+  width: 60%;
+  text-align: right;
+  vertical-align: middle;
+}
+.redes_sociales img {
+  padding: 0 10px;
+}
+.menu {
+  margin: 30px auto;
+}
+.menu a {
+  text-decoration: none;
+  color: #000;
+  padding: 0 15px;
+}
+.menu a:hover {
+  text-decoration: none;
+  color: #e5357e;
+  padding: 0 15px;
+}
+.contenedor_promociones {
+  background-image: url("imagenes/fondopiedras.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 528px;
+  color: #fdf9f0;
+}
+.contenedor_promociones h2 {
+  text-transform: uppercase;
+  padding-top: 100px;
+  font-size: 40px;
+  font-family: Impact;
+  font-weight: 400;
+}
+.contenedor_promociones p{
+  margin: 100px auto;
+  font-size: 24px;
+  width: 50%;
+}
+.contenedor_botones a{
+  color: #fdf9f0;
+  text-decoration: none;
+  padding: 20px 40px;
+  margin-right: 20px;
+}
+.btn_izq{
+  background-color: #e5357e;
+}
+.btn_drch{
+  border: #e5357e 4px solid;
+}
+.contenedor_beauty{
+  background-color: #fff;
+  padding: 80px 50px;
+}
+.txt_beauty{
+  width: 40%;
+  display: inline-block;
+}
+.txt_beauty h2{
+  font-family: Impact;
+  font-weight: 400;
+}
+.txt_beauty p{
+  padding-top: 20px;
+  text-align: justify;
+  line-height: 28px;
+}
+.img_beauty{
+  background-image: url("imagenes/fotovelas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 299px;
+  display: inline-block;
+}
+.contenedor_aromatizante{
+  margin-bottom: 30px;
+}
+.contenedor_aromatizante h2{
+  text-align: center;
+  padding: 30px;
+  font-family: Impact;
+  font-weight: 400;
+  font-size: 36px;
+}
+.img_aromatizante{
+  background-image: url("imagenes/fotoaromatizante.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 45%;
+  height: 340px;
+  display: inline-block;
+  vertical-align: top;
+}
+.txt_aromatizante{
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 20px;
+}
+h2{
+  font-family: Impact;
+  font-weight: 400;
+}
+h3{
+  font-family: Impact;
+  font-weight: 400;
+}
+.contenedor_slides{
+  margin-bottom: 30px;
+}
+.slide_1{
+  background-color: #ffe7a5;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+  text-align: center;
+  min-height: 400px;
+}
+.slide_1 img{
+  border-radius: 100%;
+}
+.slide_2{
+  background-color: #ffe7a5;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+  margin: auto 55px;
+  text-align: center;
+  min-height: 400px;
+}
+.slide_2 img{
+  border-radius: 100%;
+}
+.slide_3{
+  background-color: #ffe7a5;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+  text-align: center;
+  min-height: 400px;
+}
+.slide_3 img{
+  border-radius: 100%;
+}
+.botones {
+  margin: 30px 0 ;
+}
+footer{
+  width: 100%;
+}
+.logo_abajo{
+  text-align: center;
+  background-color: #fff;
+  padding: 30px 0;
+}
+.logo_abajo img{
+  padding-top: 20px;
+  object-fit: cover;
+}
+.logo_abajo a{
+  display: block;
+  text-decoration: none;
+}
+.letras_rosas{
+  color: #e5357e;
+}
